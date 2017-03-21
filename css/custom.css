@@ -114,8 +114,16 @@ img.grayscale:hover {
     color: inherit;
 }
 
-.background-image-holder {
+/*.background-image-holder {
     transition: all 0.1s ease;
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
+}*/
+
+#soluciones .ecity-circle-icon {
+    border: 1px solid #ffffff;
+}
+#soluciones .ecity-circle-icon:hover {
+    background: #337ab7;
+    border: 1px solid #337ab7;
 }
