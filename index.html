@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>e-City</title>
+        <meta name="description" content="Domótica adaptada a sus necesidades. Una solución de domótica para cada necesidad." />
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme-ecity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600" rel="stylesheet" type="text/css">
+    </head>
+
+    <body class="scroll-assist">
+        <div class="nav-container">
+            <nav>
+                <div class="nav-bar text-center">
+                    <div class="col-md-2 col-md-push-5 col-sm-12 text-center">
+                        <a href="#inicio" class="inner-link">
+                            <img alt="Veros Café" class="logo" src="/img/logo-dark.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-md-pull-2 overflow-hidden-xs">
+                        <ul class="menu inline-block pull-right">
+                            <li><a class="inner-link" href="#inicio">Inicio</a></li>
+                            <li><a class="inner-link" href="#soluciones">Soluciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-5 pb-xs-24">
+                        <ul class="menu">
+                            <li><a class="inner-link" href="#quienes-somos">Quiénes Somos</a></li>
+                            <li><a class="inner-link" href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs absolute-xs">
+                    <i class="ti-menu"></i>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main-container">
+
+            <section id="inicio" class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
+                <ul class="slides">
+                    <li class="overlay image-bg">
+                        <div class="background-image-holder">
+                            <img alt="image" class="background-image" src="/img/casa-bg.jpg">
+                        </div>
+                        <div class="container v-align-transform">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-8">
+                                    <h1 class="mb40 mb-xs-16 large">Hogares y <br>Oficinas</h1>
+                                    <h6 class="uppercase mb16">Confort, seguridad y ahorro energético.</h6>
+                                    <p class="lead mb40">Gestioná tu espacio inteligente desde cualquier dispositivo móvil, independientemente de dónde te encuentres.<br></p>
+                                    <a class="btn btn-lg inner-link" href="#soluciones" onclick="showHome()">MÁS INFORMACIÓN</a>
+                                </div>
+                                <div class="col-md-6 col-sm-8 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-home" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Casas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-building-o" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Departamentos</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-briefcase" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Oficinas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="overlay image-bg">
+                        <div class="background-image-holder">
+                            <img alt="image" class="background-image" src="img/edificios-bg.jpg">
+                        </div>
+                        <div class="container v-align-transform">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-8">
+                                    <h1 class="mb40 mb-xs-16 large">Edificios y <br>Barrios Privados</h1>
+                                    <h6 class="uppercase mb16">Confort, seguridad y ahorro energético.</h6>
+                                    <p class="lead mb40">Gestioná tu oficina inteligente desde cualquier dispositivo móvil, independientemente de dónde te encuentres.</p>
+                                    <a class="btn btn-lg inner-link" href="#soluciones" onclick="showBuilding()">MÁS INFORMACIÓN</a>
+                                </div>
+                                <div class="col-md-6 col-sm-8 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-building" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Edificios</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-user-md" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Clínicas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-bed" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Hoteles</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-graduation-cap" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Escuelas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="overlay image-bg">
+                        <div class="background-image-holder">
+                            <img alt="image" class="background-image" src="img/ciudad-bg.jpg">
+                        </div>
+                        <div class="container v-align-transform">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-8">
+                                    <h1 class="mb40 mb-xs-16 large">Ciudad</h1>
+                                    <h6 class="uppercase mb16">Confort, seguridad y ahorro energético.</h6>
+                                    <p class="lead mb40">Trabajamos en desarrollar soluciones innovadoras que contribuyan a mejorar la calidad de vida de los vecinos.<br></p>
+                                    <a class="btn btn-lg inner-link" href="#soluciones" onclick="showCity()">MÁS INFORMACIÓN</a>
+                                </div>
+                                <div class="col-md-6 col-sm-8 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-institution" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Gobierno</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-road" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Obras Públicas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="feature feature-1 boxed ecity-application">
+                                                <i class="icon fa fa-users" style="margin-bottom: 0; margin-right: 10px; vertical-align: middle;"></i>
+                                                <h5 class="uppercase" style="display: inline-block; margin: 0; vertical-align: middle;">Barrios Privados</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pb64 pb-xs-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 filled text-center">
+                                <div class="text-center">
+                                    <i class="ti ti-crown icon-sm"></i>
+                                    <h5 class="uppercase">Confort</h5>
+                                </div>
+                                <p>
+                                    Una extensa gama de productos dedicados a mejorar la calidad de vida de cada usuario, simplificando las tareas y cuidando su tiempo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 filled text-center">
+                                <div class="text-center">
+                                    <i class="ti ti-light-bulb icon-sm"></i>
+                                    <h5 class="uppercase">Ahorro de Energía</h5>
+                                </div>
+                                <p>
+                                    Las últimas tendencias a nivel de mundial en cuanto a producción y optimización de  energía, desde la instalación de energías renovables hasta el seguimiento de consumo individual de cada objeto conectado.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 filled text-center">
+                                <div class="text-center">
+                                    <i class="ti ti-lock icon-sm"></i>
+                                    <h5 class="uppercase">Seguridad</h5>
+                                </div>
+                                <p>
+                                    Innovadores sistema de seguridad conectada que garantizan un control absoluto y en vivo de cada ambiente elegido. Cuidamos su familia, sus vecinos y su comunidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="soluciones" class="image-bg overlay overlay-heavy">
+                <div id="background-soluciones" class="background-image-holder">
+                    <img alt="Background" class="background-image" src="img/tablet-bg.jpg">
+                </div>
+                <div class="container">
+
+                    <div class="tabbed-content text-tabs text-center">
+
+                        <ul class="tabs ecity-tabbed-contet">
+                            <li class="active" id="home-tab" onclick="showHome()">
+                                <div class="tab-title">
+                                    <span>Hogar y Oficina</span>
+                                </div>
+                            </li>
+                            <li id="building-tab" onclick="showBuilding()">
+                                <div class="tab-title">
+                                    <span>Edificios Residenciales y Espacios Comerciales</span>
+                                </div>
+                            </li>
+                            <li id="city-tab" onclick="showCity()">
+                                <div class="tab-title">
+                                    <span>Ciudades</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li class="active">
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-sm-12 text-center mb56">
+                                            <h2 class="mb16">Cualquier casa se puede transformar en un hogar inteligente</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-1">
+                                                    <i class="icon ti ti-pencil-alt"></i>
+                                                    <h5 class="uppercase">Personalización</h5>
+                                                <p>
+                                                    Definimos junto a usted la mejor configuracion para su hogar
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-1">
+                                                    <i class="ti-package icon"></i>
+                                                    <h5 class="uppercase">Llave en mano</h5>
+                                                <p>
+                                                    Le entregamos una instalación en funcionamiento lista para disfrutar
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-1">
+                                                    <i class="icon ti ti-briefcase"></i>
+                                                    <h5 class="uppercase">Mantenimiento</h5>
+                                                <p>
+                                                    Nosotros garantizamos la reparación y mantenimiento de los equipos
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-1">
+                                                    <i class="icon ti ti-info-alt"></i>
+                                                    <h5 class="uppercase">Atención</h5>
+                                                <p>
+                                                    Estamos a su disposición modificar o amplicar las funcionalidades existentes
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-sm-12 text-center mb56">
+                                            <h2 class="mb16">Incorpore innovación y tecnología a su negocio</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-2">
+                                                    <i class="icon ti ti-pencil-alt"></i>
+                                                    <h5 class="uppercase">Personalización</h5>
+                                                <p>
+                                                    Adaptamos todas las funcionalidades a sus necesidades y la de los usuarios
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-2">
+                                                    <i class="ti-package icon"></i>
+                                                    <h5 class="uppercase">Llave en mano</h5>
+                                                <p>
+                                                    Le entregamos la instlación con sus preferencias ya definidas y el acceso a la información que usted decida
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-2">
+                                                    <i class="icon ti ti-briefcase"></i>
+                                                    <h5 class="uppercase">Mantenimiento</h5>
+                                                <p>
+                                                    Nos encargamos del mantenimiento y reparaciones necesarias
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-2">
+                                                    <i class="icon ti ti-info-alt"></i>
+                                                    <h5 class="uppercase">Atención</h5>
+                                                <p>
+                                                    Estamos a su disposición modificar o amplicar las funcionalidades existentes
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-sm-12 text-center mb56">
+                                            <h2 class="mb16">Transformando ciudades a través de la tecnologia</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-3">
+                                                    <i class="icon ti ti-pencil-alt"></i>
+                                                    <h5 class="uppercase">Personalización</h5>
+                                                <p>
+                                                    Definimos junto a las autoridades, el potencial y las posibilidades de transformación
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-3">
+                                                    <i class="ti-package icon"></i>
+                                                    <h5 class="uppercase">Llave en mano</h5>
+                                                <p>
+                                                    Ejecutamos las obras, entregando proyectos en funcionamiento
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-3">
+                                                    <i class="icon ti ti-briefcase"></i>
+                                                    <h5 class="uppercase">Mantenimiento</h5>
+                                                <p>
+                                                    Nos encargamos del mantenimiento y reparaciones necesarias
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="feature feature-1 boxed text-center" data-mh="caracteristicas-grupo-3">
+                                                    <i class="icon ti ti-info-alt"></i>
+                                                    <h5 class="uppercase">Atención</h5>
+                                                <p>
+                                                    Acompanamos a los equipos operativos y los aconsejamos en cuanto a  nuevas opciones de gestión
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-secondary">
+                <div class="container">
+                    <div class="tabbed-content text-tabs text-center">
+                        <ul class="tabs hidden">
+                            <li class="active" id="hidden-home-tab">
+                                <div class="tab-title">
+                                    <span>Hogar y Oficina</span>
+                                </div>
+                            </li>
+                            <li id="hidden-building-tab">
+                                <div class="tab-title">
+                                    <span>Edificios Residenciales y Espacios Comerciales</span>
+                                </div>
+                            </li>
+                            <li id="hidden-city-tab">
+                                <div class="tab-title">
+                                    <span>Ciudades</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li class="active">
+                                <div class="tab-content">
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-1">
+                                                <div class="text-center">
+                                                    <i class="ti-crown icon-sm"></i>
+                                                    <h5 class="uppercase">Confort</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Iluminacion</li>
+                                                    <li>Termostato zonal</li>
+                                                    <li>Audio multi-room</li>
+                                                    <li>Electrodomésticos</li>
+                                                    <li>Persianas</li>
+                                                    <li>Riego</li>
+                                                    <li>Acc. para mascotas</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-1">
+                                                <div class="text-center">
+                                                    <i class="ti-light-bulb icon-sm"></i>
+                                                    <h5 class="uppercase">Ahorro de Energía</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Paneles solares</li>
+                                                    <li>Control del consumo de energía</li>
+                                                    <li>Calefones solares</li>
+                                                    <li>Calefacción programable a distancia</li>
+                                                    <li>Riego por aspersión</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-1">
+                                                <div class="text-center">
+                                                    <i class="ti-lock icon-sm"></i>
+                                                    <h5 class="uppercase">Seguridad</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Camaras de vigilancia</li>
+                                                    <li>Sensores de movimiento</li>
+                                                    <li>SImulacion de presencia</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab-content">
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-2">
+                                                <div class="text-center">
+                                                    <i class="ti-crown icon-sm"></i>
+                                                    <h5 class="uppercase">Confort</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Iluminación </li>
+                                                    <li>Audio multi-room</li>
+                                                    <li>Persianas </li>
+                                                    <li>Salas de espera</li>
+                                                    <li>Gestión de turnos </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-2">
+                                                <div class="text-center">
+                                                    <i class="ti-light-bulb icon-sm"></i>
+                                                    <h5 class="uppercase">Ahorro de Energía</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Paneles solares</li>
+                                                    <li>Control de consumo de energía en directo</li>
+                                                    <li>Calefones solares</li>
+                                                    <li>Termostato inteligente</li>
+                                                    <li>Intermitencia de equipos</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-2">
+                                                <div class="text-center">
+                                                    <i class="ti-lock icon-sm"></i>
+                                                    <h5 class="uppercase">Seguridad</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Camaras de vigilancia</li>
+                                                    <li>Sensores de movimiento</li>
+                                                    <li>Simulacion de presencia</li>
+                                                    <li>Vigilancia por drones</li>
+                                                    <li>Control de acceso</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab-content">
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-3">
+                                                <div class="text-center">
+                                                    <i class="ti-crown icon-sm"></i>
+                                                    <h5 class="uppercase">Confort</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Gestion de alumbrado publico</li>
+                                                    <li>Control del transporte de residuos </li>
+                                                    <li>Señaletica digital</li>
+                                                    <li>Movilidad multimodal e integrada</li>
+                                                    <li>Control de semáforos y gestión de transito</li>
+                                                    <li>Estacionamiento medido y conectado</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-3">
+                                                <div class="text-center">
+                                                    <i class="ti-light-bulb icon-sm"></i>
+                                                    <h5 class="uppercase">Ahorro de Energía</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Paneles solares</li>
+                                                    <li>Control del consumo de energía </li>
+                                                    <li>Iluminación urbana autogenerada por energía solar fotovoltaica y eólica</li>
+                                                    <li>Termostato inteligente</li>
+                                                    <li>Intermitencia de equipos </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="feature feature-2 bordered" data-mh="bondades-grupo-3">
+                                                <div class="text-center">
+                                                    <i class="ti-lock icon-sm"></i>
+                                                    <h5 class="uppercase">Seguridad</h5>
+                                                </div>
+                                                <ul class="text-left inline-block" data-bullet="ti-arrow-circle-right">
+                                                    <li>Cámaras de vigilancia</li>
+                                                    <li>Sensores de movimiento</li>
+                                                    <li>Simulación de presencia</li>
+                                                    <li>Vigilancia por drones </li>
+                                                    <li>Control de acceso</li>
+                                                    <li>Telemedición de gases contaminantes a la atmósfera</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="quienes-somos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 text-center">
+                            <h3 class="uppercase color-primary mb40 mb-xs-24">¿Quiénes somos?</h3>
+                            <p class="lead">
+                                Un equipo de ingenieros argentinos con larga trayectoria internacional, reunidos luego de desempeñarse en más de 15 países, en grandes proyectos de investigación y desarrollo dedicados a la innovación y a la optimización tanto de productos como de procesos.
+                            </p>
+                            <p class="lead">
+                                e-City nace en Latinoamérica con el objetivo de brindar nuevas tecnologías en materia de gestión y  automatización de hogares, comercios y ciudades que están siendo implementadas en los países más avanzados del mundo como Estados Unidos, Francia o Singapur.
+                            </p>
+                            <p class="lead">
+                                e-City pone a su disposición innovacion y tecnología de punta para crear ambientes ergonómicos y seguros ya sea en su casa, su oficina o su ciudad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto" class="bg-secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <h4 class="uppercase">Contáctenos</h4>
+                            <p>
+                                Ante cualquier duda o consulta, llámenos o contáctenos a través de nuestro formulario web. Estamos a un click de distancia.</p>
+                            <hr>
+                            <p>
+                                Calle Falsa 123 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br> Chacras de Coria, Mendoza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>                            Argentina</p>
+                            <hr>
+                            <p>
+                                <strong>Email:</strong> info@e-cityconcept.com <br><strong>Tel:</strong> +54 9 261 0303456<br>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-5 col-md-offset-1">
+                            <form class="form-email" data-success="¡Mensaje enviado!" data-error="Corrobore los campos.">
+                                <input type="text" class="validate-required" name="name" placeholder="Nombre">
+                                <input type="text" class="validate-required validate-email" name="email" placeholder="Email">
+                                <textarea class="validate-required" name="message" rows="4" placeholder="Mensaje"></textarea>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer-2 bg-dark text-center-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="/">
+                                <div class="vnu"><img class="image-xxs fade-half" alt="Pic" src="img/logo-light.png"></div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-4 text-center">
+                            <span class="fade-half">
+                                web by <a href="http://littlebox.com.ar">littlebox</a><br></span>
+                        </div>
+                        <div class="col-sm-4 text-right text-center-xs">
+                            <ul class="list-inline social-list">
+                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                <li><a href="#"><i class="ti ti-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script type="text/javascript">
+            function showHome(){
+                document.getElementById('home-tab').click();
+                document.getElementById('hidden-home-tab').click();
+                document.getElementById('background-soluciones').querySelector('img').src = '/img/tablet-bg.jpg';
+                document.getElementById('background-soluciones').style.background = "url('/img/tablet-bg.jpg')";
+            }
+
+            function showBuilding(){
+                document.getElementById('building-tab').click();
+                document.getElementById('hidden-building-tab').click();
+                document.getElementById('background-soluciones').querySelector('img').src = '/img/oficina-bg.jpg';
+                document.getElementById('background-soluciones').style.background = "url('/img/oficina-bg.jpg')";
+
+            }
+
+            function showCity(){
+                document.getElementById('city-tab').click();
+                document.getElementById('hidden-city-tab').click();
+                document.getElementById('background-soluciones').querySelector('img').src = '/img/ciudad-bg-old.jpg';
+                document.getElementById('background-soluciones').style.background = "url('/img/ciudad-bg-old.jpg')";
+
+            }
+        </script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.matchheight.min.js"></script>
+
+    </body>
+</html>

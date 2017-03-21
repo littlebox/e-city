@@ -1,0 +1,121 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/* Grayscale on Hover Image */
+img.grayscale {
+    -webkit-filter: grayscale(1);
+}
+img.grayscale:hover {
+    -webkit-filter: grayscale(0);
+}
+
+/* Menu Adjustements */
+.menu li a {
+    font-size: 13px;
+    font-weight: 700;
+}
+.menu {
+    height: 80px;
+}
+.nav-bar {
+    height: 80px;
+    max-height: 80px;
+    line-height: 80px;
+}
+@media (max-width: 990px){
+    .mobile-toggle i {
+        line-height: 80px !important;
+    }
+    .menu a {
+        padding: 8px 0;
+    }
+    .mobile-toggle {
+        border-left: none !important;
+    }
+}
+/*Muestra Títulos en Reveal on Hovers Cuando es Tablet o Movil*/
+@media (max-width: 1024px){
+    .inner-title {
+    opacity: .95;
+    }
+    .inner-title.hover-reveal:before {
+        opacity: 1;
+    }
+    .inner-title:before {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+    .inner-title.hover-reveal .title {
+        opacity: 1;
+        transform: translate3d(0, 0px, 0);
+        -webkit-transform: translate3d(0, 0px, 0);
+        -moz-transform: translate3d(0, 0px, 0);
+    }
+    .fs-vid-background {
+        display: block;
+    }
+    .menu {
+        height: auto;
+    }
+}
+
+/* Featured Boxes en Slider Principal */
+
+.ecity-application {
+    display: inline-block;
+    min-width: 300px;
+    text-align: left;
+}
+.ecity-application i{
+    margin-bottom: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+.ecity-application h5{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+/* Full Width Tabbed Content */
+
+.ecity-tabbed-contet {
+    margin-left: -150px;
+    margin-right: -150px;
+    margin-top: -50px;
+    margin-bottom: 85px;
+}
+.text-tabs .ecity-tabbed-contet .tab-title:after {
+    content: '';
+    height: 2px;
+    background: #fff;
+}
+
+.feature-2 ul i {
+    display: inherit;
+    width: inherit;
+    height: inherit;
+    border: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    color: inherit;
+    border-radius: inherit;
+    margin: inherit;
+    margin-bottom: inherit;
+    transition: inherit;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+}
+
+.feature-2 ul i:hover, .feature-2.filled ul i {
+    background: none;
+    color: inherit;
+}
+
+.background-image-holder {
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
