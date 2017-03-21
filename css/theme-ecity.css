@@ -2644,10 +2644,10 @@ button[type="submit"] .form-loading {
   display: block;
   width: 80px;
   height: 80px;
-  border: 1px solid #333347;
+  border: 1px solid #337ab7;
   text-align: center;
   line-height: 80px;
-  color: #333347;
+  color: #337ab7;
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -2657,7 +2657,7 @@ button[type="submit"] .form-loading {
 }
 .feature-2 i:hover,
 .feature-2.filled i {
-  background: #333347;
+  background: #337ab7;
   color: #fff;
 }
 .feature-3 {
