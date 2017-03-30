@@ -6,6 +6,9 @@ $to = "info@e-cityconcept.com";
 $subject = "Contacto desde Web";
 $message = "Nombre: " . $_POST['name'];
 $message .= "<br><br>Email: " . $_POST['email'];
+if (!empty($_POST['tel'])) {
+	$message .= "<br><br>Teléfono: " . $_POST['tel'];
+}
 $message .= "<br><br>Mensaje: " . $_POST['message'];
 
 
