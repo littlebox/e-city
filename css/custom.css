@@ -129,6 +129,16 @@ img.grayscale:hover {
     color: inherit;
 }
 
+@media all and (min-width: 768px) {
+  .feature-3 {
+    min-height: 64px;
+  }
+}
+
+.ecity-list-item {
+    font-size: 18px;
+}
+
 /*.background-image-holder {
     transition: all 0.1s ease;
     -webkit-transition: all 0.1s ease;
