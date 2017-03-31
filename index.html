@@ -672,26 +672,34 @@
         </div>
 
         <script type="text/javascript">
+            var bgTablet = new Image();
+            var bgOficina = new Image();
+            var bgCiudad = new Image();
+
+            bgTablet.src = '/img/tablet-bg.jpg';
+            bgOficina.src = '/img/oficina-bg.jpg';
+            bgCiudad.src = '/img/ciudad-bg-2.jpg';
+
             function showHome(){
                 document.getElementById('home-tab').click();
                 // document.getElementById('hidden-home-tab').click();
-                document.getElementById('background-soluciones').querySelector('img').src = '/img/tablet-bg.jpg';
-                document.getElementById('background-soluciones').style.background = "url('/img/tablet-bg.jpg')";
+                document.getElementById('background-soluciones').querySelector('img').src = bgTablet.src;
+                document.getElementById('background-soluciones').style.background = "url('"+bgTablet.src+"')";
             }
 
             function showBuilding(){
                 document.getElementById('building-tab').click();
                 // document.getElementById('hidden-building-tab').click();
-                document.getElementById('background-soluciones').querySelector('img').src = '/img/oficina-bg.jpg';
-                document.getElementById('background-soluciones').style.background = "url('/img/oficina-bg.jpg')";
+                document.getElementById('background-soluciones').querySelector('img').src = bgOficina.src;
+                document.getElementById('background-soluciones').style.background = "url('"+bgOficina.src+"')";
 
             }
 
             function showCity(){
                 document.getElementById('city-tab').click();
                 // document.getElementById('hidden-city-tab').click();
-                document.getElementById('background-soluciones').querySelector('img').src = '/img/ciudad-bg-2.jpg';
-                document.getElementById('background-soluciones').style.background = "url('/img/ciudad-bg-2.jpg')";
+                document.getElementById('background-soluciones').querySelector('img').src = bgCiudad.src;
+                document.getElementById('background-soluciones').style.background = "url('"+bgCiudad.src+"')";
 
             }
         </script>
