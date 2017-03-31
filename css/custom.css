@@ -2,12 +2,25 @@
 
 /* Grayscale on Hover Image */
 img.grayscale {
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    transition: .3s ease;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .3s ease;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .3s ease;
+    -o-filter: grayscale(100%);
+    -o-transition: .3s ease;
+
 }
 img.grayscale:hover {
-    -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+    transition: .3s ease;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .3s ease;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .3s ease;
+    -o-filter: grayscale(0%);
+    -o-transition: .3s ease;
 }
 
 /* Menu Adjustements */
