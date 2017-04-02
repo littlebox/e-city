@@ -116,6 +116,16 @@ img.grayscale:hover {
     margin-top: -50px;
     margin-bottom: 85px;
 }
+
+@media (max-width: 767px) {
+  .ecity-tabbed-contet {
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -50px;
+    margin-bottom: 85px;
+  }
+}
+
 .text-tabs .ecity-tabbed-contet .tab-title:after {
     content: '';
     height: 2px;
@@ -152,7 +162,18 @@ img.grayscale:hover {
 .ecity-list-item {
     font-size: 18px;
 }
+@media (max-width: 767px) {
+    .ecity-list-item {
+        text-align: center !important;
+        font-weight: 600;
+    }
+}
 
+@media (max-width: 767px) {
+    #soluciones .icon-sm {
+        font-size: 40px;
+    }
+}
 /*.background-image-holder {
     transition: all 0.1s ease;
     -webkit-transition: all 0.1s ease;
